@@ -2,7 +2,7 @@
 
 # to run
 # ssh root@_secret_ip_
-# curl -O -L https://raw.githubusercontent.com/token-cjg/hello_drone/master/nginx.sh
+# curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/nginx.sh
 # ./nginx.sh
 
 # purge first!
@@ -23,5 +23,5 @@ sudo apt-get update -y
 sudo apt-get install python-certbot-nginx -y
 sudo nginx -t
 sudo systemctl reload nginx
-sudo certbot --nginx -d rungrathin.com --keep-until-expiring --no-redirect --register-unsafely-without-email --agree-tos
+sudo certbot --nginx -d turn.rungrathin.com --keep-until-expiring --no-redirect --register-unsafely-without-email --agree-tos
 # sudo certbot renew --dry-run
