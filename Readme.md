@@ -6,10 +6,9 @@ See instructions [here](docs/prerequisities.md).
 
 ### Quickstart
 
-1. `curl -O -L https://raw.githubusercontent.com/token-cjg/hello_drone/master/bootstrap.sh`
+1. `curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/bootstrap.sh`
 1. `chmod +x bootstrap.sh`
 1. `./bootstrap.sh`
-1. wait for docker (several minutes)
 1. visit your.server.com # eg https://groklemins.tk
 
 ### Gotchas
