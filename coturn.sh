@@ -10,3 +10,8 @@ sudo systemctl stop coturn
 sudo mv /etc/default/coturn /etc/default/coturn.orig
 curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/fixtures/coturn
 sudo mv coturn /etc/default
+
+# coturn configuration
+sudo mv /etc/turnserver.conf /etc/turnserver.conf.original
+curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/fixtures/turnserver.conf
+sudo mv turnserver.conf /etc
