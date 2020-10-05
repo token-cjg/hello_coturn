@@ -23,5 +23,5 @@ sudo apt-get update -y
 sudo apt-get install python-certbot-nginx -y
 sudo nginx -t
 sudo systemctl reload nginx
-sudo certbot --nginx -d turn.rungrathin.com --keep-until-expiring --no-redirect --register-unsafely-without-email --agree-tos
+sudo certbot --nginx -d coturn.rungrathin.com --keep-until-expiring --no-redirect --register-unsafely-without-email --agree-tos
 # sudo certbot renew --dry-run
