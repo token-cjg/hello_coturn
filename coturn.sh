@@ -19,7 +19,7 @@ curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/fixtu
 sudo mv turnserver.conf /etc
 
 # coturn user
-sudo turnadmin -a -u brucewayne -r coturn.rungrathin.com -p 12345
+sudo turnadmin -a -u brucewayne -r coturn.cthulu.tk -p 12345
 
 # turn coturn on
 sudo systemctl start coturn
