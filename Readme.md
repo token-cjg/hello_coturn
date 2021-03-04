@@ -8,7 +8,7 @@ See instructions [here](docs/prerequisities.md).
 
 1. `curl -O -L https://raw.githubusercontent.com/token-cjg/hello_coturn/master/bootstrap.sh`
 1. `chmod +x bootstrap.sh`
-1. `./bootstrap.sh $ADMIN_USER $ADMIN_PASSWORD`
+1. `./bootstrap.sh $ADMIN_USER $ADMIN_PASSWORD $SERVER`
 1. visit your.server.com # eg https://groklemins.tk
 
 ### Gotchas

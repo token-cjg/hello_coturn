@@ -7,4 +7,4 @@ sudo chmod +x ./nginx.sh
 sudo chmod +x ./coturn.sh
 
 bash nginx.sh
-bash coturn.sh $1 $2 # pass ADMIN_USER and ADMIN_PASSWORD
+bash coturn.sh $1 $2 $3 # pass ADMIN_USER, ADMIN_PASSWORD, and SERVER. eg bob, supersecretpassword, awesome.domain.com
