@@ -5,6 +5,9 @@ sudo apt-get -y update
 # install coturn package
 sudo apt-get -y install coturn
 
+# install sqlite
+sudo apt-get -y install sqlite3 libsqlite3-dev
+
 # stop coturn
 sudo systemctl stop coturn
 
